@@ -1,9 +1,9 @@
 # Mexora ETL & Data Warehouse Project 📊
 
-## 📌 Présentation du Projet
+## Présentation du Projet
 Ce projet a pour objectif de concevoir et d'implémenter une solution complète de **Business Intelligence** pour l'entreprise fictive **Mexora**, spécialisée dans la distribution. La solution couvre l'intégralité du cycle de vie de la donnée : de l'extraction des fichiers sources bruts à la visualisation décisionnelle.
 
-## 🏗️ Architecture Technique
+## Architecture Technique
 Le projet repose sur une architecture moderne de Data Engineering :
 
 1.  **Pipeline ETL (Python)** :
@@ -17,7 +17,7 @@ Le projet repose sur une architecture moderne de Data Engineering :
     *   Dashboard interactif et complet développé sous **Microsoft Power BI**, offrant des graphiques analytiques, des cartes KPI, une cartographie des ventes au Maroc et des filtres croisés avancés connectés directement au Data Warehouse PostgreSQL.
 
 
-## 📁 Structure du Projet
+## Structure du Projet
 ```text
 mexora_etl/
 ├── config/             # Paramètres de connexion DB
@@ -30,8 +30,17 @@ mexora_etl/
 ├── app.py              # Application Dashboard Streamlit Premium
 
 ```
+## Livrables et Documents (L1 à L8)
 
-## 🚀 Installation et Utilisation
+L1 : le schéma entité-relation annoté ;
+L2 : le document de justification des choix techniques ;
+L3 : le code complet du pipeline ETL en Python ;
+L4 : le rapport des transformations au format Markdown ;
+L5 : le script SQL de création du Data Warehouse ;
+L6 : le script SQL de vérification de l’intégrité ;
+L7 : le dashboard final Power BI (format PDF) ;
+L8 : le document des insights métiers (format PDF).
+## Installation et Utilisation
 
 ### 1. Prérequis
 *   Python 3.10+
@@ -68,7 +77,7 @@ python -m streamlit run mexora_etl/app.py
 
 ```
 
-## 📈 Questions Métier Couvertes
+## Questions Métier Couvertes
 Le dashboard répond automatiquement aux analyses suivantes :
 *   Chiffre d'affaires par région marocaine.
 *   Top 10 des produits les plus vendus (Focus sur Tanger).
@@ -76,7 +85,7 @@ Le dashboard répond automatiquement aux analyses suivantes :
 *   Taux de retour par catégorie de produit.
 *   Impact saisonnier (Effet Ramadan sur les ventes alimentaires).
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 *   **Langage** : Python 3.14
 *   **Base de données** : PostgreSQL 16
 *   **Business Intelligence** : Microsoft Power BI

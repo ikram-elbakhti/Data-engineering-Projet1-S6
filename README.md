@@ -1,4 +1,4 @@
-# Mexora ETL & Data Warehouse Project 📊
+# Mexora ETL & Data Warehouse Project
 
 ## Présentation du Projet
 Ce projet a pour objectif de concevoir et d'implémenter une solution complète de **Business Intelligence** pour l'entreprise fictive **Mexora**, spécialisée dans la distribution. La solution couvre l'intégralité du cycle de vie de la donnée : de l'extraction des fichiers sources bruts à la visualisation décisionnelle.
@@ -40,6 +40,7 @@ L5 : le script SQL de création du Data Warehouse ;
 L6 : le script SQL de vérification de l’intégrité ;
 L7 : le dashboard final Power BI (format PDF) ;
 L8 : le document des insights métiers (format PDF).
+
 ## Installation et Utilisation
 
 ### 1. Prérequis
